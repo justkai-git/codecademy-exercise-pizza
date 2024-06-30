@@ -1,0 +1,172 @@
+/* Fonts API */
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap);
+}
+
+@font-face {
+  font-family: "Quicksand", sans-serif;
+  src: url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap);
+}
+
+/* Universal Styles */
+
+html {
+  font-family: "Playfair Display";
+  font-size: 16px;
+  width: 1024px;
+  height: 768px;
+  padding-left: 475px;
+  overflow-y: scroll;
+}
+
+body {
+  background-color: rgb(209, 184, 166);
+  border: 2px solid black;
+}
+
+/* Header */
+
+.header-content {
+  background-image: url(https://images.unsplash.com/photo-1613564834361-9436948817d1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid black;
+}
+
+.header-content h1 {
+  font-size: 2.50rem;
+  text-align: center;
+  text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
+
+.header-content nav {
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 1.75rem;
+  flex-grow: 1;
+  text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
+
+.header-content nav span {
+  padding: 20px 10px;
+}
+
+.header-content nav span a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-content nav span a:hover {
+  text-decoration: underline;
+  color: brown;
+}
+
+.header-content button {
+  font-family: "Playfair Display";
+  font-size: 1.50rem;
+  font-weight: 600;
+  background-color: red;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+}
+
+.header-content button a {
+  color: rgb(199, 199, 199);
+  text-decoration: none;
+}
+
+.header-content button:hover {
+  background-color: brown;
+  color: rgb(230, 230, 230);
+}
+
+/* Navigation */
+
+.pizza-content h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.staff-content h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.item img {
+  max-width: 200px;
+  max-height: 200px;
+  border: 1px solid black;
+}
+
+.item {
+  display: inline-block;
+  padding: 65px;
+}
+
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.50rem;
+}
+
+.item2 img {
+  max-width: 200px;
+  max-height: 200px;
+  border: 1px solid black;
+}
+
+.item2 {
+  display: inline-block;
+  padding: 93px;
+}
+
+.item2 span {
+  display: block;
+  padding: 5px;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.50rem;
+}
+
+/* Footer */
+
+footer {
+  font-family: "Quicksand", sans-serif;
+  border: 2px solid black;
+  margin-top: 50px;
+}
+
+footer h5 {
+  font-size: 1.50rem;
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer p a {
+  color: rgb(57, 61, 117);
+  text-decoration: none;
+}
+
+footer p a:hover {
+  color: brown;
+  text-decoration: underline;
+}
+
+/* Media Adaption */
+
+@media only screen and (max-width: 820px) {
+  html {
+    width: 820px;
+    height: 1180px;
+  } 
+}
